@@ -107,9 +107,9 @@ da MaisTodos efetivando a criação do mesmo já calculado.
     
     Para realizar este projeto foi feito uma grande pesquisa na biblioteca marshmallow que foi usada para validar os dados.
     
-    Função oneOf usado para validar o tipo do produto : https://marshmallow.readthedocs.io/en/stable/marshmallow.validate.html#marshmallow.validate.OneOf
+    Função oneOf usado para validar o tipo do produto: https://marshmallow.readthedocs.io/en/stable/marshmallow.validate.html#marshmallow.validate.OneOf
     
-    Função post_load usado para validar o valor total após a validação dos dados: https://marshmallow.readthedocs.io/en/stable/marshmallow.decorators.html#marshmallow.decorators.post_load e 
+    Função post_load usado para validar o valor total após a validação dos dados:         https://marshmallow.readthedocs.io/en/stable/marshmallow.decorators.html#marshmallow.decorators.post_load e 
     https://marshmallow.readthedocs.io/en/stable/marshmallow.decorators.html
     
     Função fields.Method usado para validar o cpf: https://marshmallow.readthedocs.io/en/stable/marshmallow.fields.html#marshmallow.fields.Method e 
@@ -118,7 +118,7 @@ da MaisTodos efetivando a criação do mesmo já calculado.
     Realizar uma requisição post pra API MaisTodos: 
     https://www.kite.com/python/answers/how-to-send-a-post-request-in-python#:~:text=Use%20requests.,server's%20response%20to%20the%20request.
     
-    Django JSONResponse usado para verificar o codigo 200 no test_sample.py https://docs.djangoproject.com/en/3.2/ref/request-response/#jsonresponse-objects
+    Django JSONResponse usado para retornar o valor da API criada em Json de maneira customizável: https://docs.djangoproject.com/en/3.2/ref/request-response/#jsonresponse-objects
     
     
     
