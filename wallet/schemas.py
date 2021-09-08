@@ -15,12 +15,6 @@ class CustomerSchema(Schema):
             raise ValidationError("Document invalid!")
         return value
 
-
-class CustomerSchemaRead(Schema):
-    document = fields.Str()
-    name = fields.Str()
-
-
 class ProductSchema(Schema):
     type = fields.Str(
         required=True,
